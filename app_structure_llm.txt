@@ -1,0 +1,23 @@
+# App Structure - Rebel Proposal Sample
+# Last updated: 2026-10-27
+
+## Repositories
+- GitHub: https://github.com/Orangebl00d/rebel-proposal-sample (public)
+
+## Backend (Supabase)
+- None. Single static page, no auth, no database.
+
+## Deployed Services
+- GitHub Pages: https://orangebl00d.github.io/rebel-proposal-sample/
+  - Source: branch main, root folder
+- Railway: none
+
+## Environment Variables Required
+- None
+
+## Notes
+- index.html is one self-contained page. Its only external assets are the Rebel Health Alliance logo and two physician photos, loaded from join.rebelhealthalliance.io (not stored here).
+- The client (Grant Ellison, Houston TX, wife and daughter) is fictional. Never add a real client's name, health details, live meeting links, or personal phone numbers.
+- Booking, email, and phone buttons are inert on purpose (aria-disabled anchors with no href). John's number is a fictional 555 number.
+- A gold banner at the top and the footer note mark the page as a sample. Keep both.
+- Local clone lives at Downloads/rebel-proposal-sample and is excluded from the parent Downloads repo via .git/info/exclude.
